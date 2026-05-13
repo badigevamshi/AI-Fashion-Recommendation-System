@@ -1,8 +1,5 @@
 <<<<<<< HEAD
 # AI Fashion Recommendation System 👗🤖
-=======
-# AI Fashion Recommendation System
->>>>>>> 949cfd5 (Updated project name and cleaned code)
 
 An AI-powered fashion recommendation web application that analyzes user photos and provides personalized outfit suggestions using Computer Vision and Large Language Models.
 
