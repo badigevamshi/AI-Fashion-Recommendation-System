@@ -49,7 +49,6 @@ def detect_skin_tone(image_path):
     img = cv2.resize(img, (300, 300))
     hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
 
-    # Broad & safe human skin range
     lower_skin = np.array([0, 20, 60], dtype=np.uint8)
     upper_skin = np.array([25, 180, 255], dtype=np.uint8)
 
@@ -128,20 +127,15 @@ def analyze():
     path = os.path.join(UPLOAD_FOLDER, image.filename)
     image.save(path)
 
-    # ❌ Reject non-human images
     if not is_human_face(path):
         return jsonify({
             "invalid": True,
             "message": "Invalid photo. Please upload a clear human face photo."
         })
 
-    # ✅ Detect skin tone
     skin_tone = detect_skin_tone(path)
-    
-    # Placeholder for Face Shape (could be enhanced with CV later)
     face_shape = "Oval"
 
-    # ✅ AI recommendation
     try:
         ai_response = ai_recommendation(
             skin_tone,
@@ -149,18 +143,18 @@ def analyze():
             body_type,
             season
         )
-        # Handle potential markdown wrapping
+
         if "```json" in ai_response:
             ai_response = ai_response.split("```json")[1].split("```")[0].strip()
         elif "```" in ai_response:
             ai_response = ai_response.split("```")[1].strip()
-            
+
         data = json.loads(ai_response)
-        
+
         recommendation = data.get("recommendation", {})
         recommended_colors = data.get("recommended_colors", ["Neutral", "Black", "White"])
         fashion_tips = data.get("fashion_tips", ["Wear what makes you comfortable."])
-        
+
     except Exception as e:
         print(f"AI Error: {e}")
         recommendation = {
