@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # AI Fashion Recommendation System 👗🤖
 
 An AI-powered fashion recommendation web application that analyzes user photos and provides personalized outfit suggestions using Computer Vision and Large Language Models.
