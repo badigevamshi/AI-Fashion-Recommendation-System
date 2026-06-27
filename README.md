@@ -89,15 +89,11 @@ The application automatically redirects users to the selected shopping platform 
 
 ## 🏠 Home Page
 
-The modern landing page introduces the AI Fashion Recommendation System with a clean Glassmorphism-inspired interface.
-
-![Home Page](assets/home-page.png)
+![Home Page](assets/home.png)
 
 ---
 
-## 📤 Upload Image
-
-Users can upload their image and choose preferences such as gender, body type, and preferred season.
+## 📤 Upload Page
 
 ![Upload Page](assets/upload-page.png)
 
@@ -105,45 +101,29 @@ Users can upload their image and choose preferences such as gender, body type, a
 
 ## 🤖 AI Fashion Analysis
 
-The AI analyzes the uploaded image and generates personalized fashion recommendations based on skin tone, body type, and season.
-
 ![Style Analysis](assets/style-analysis.png)
 
 ---
 
 ## 🛒 Shopping Platform Selection
 
-After receiving recommendations, users can choose their preferred shopping platform.
-
-Supported platforms:
-
-- 🛒 Amazon
-- 👗 Myntra
-- 🛍 Flipkart
-
 ![Shopping Platforms](assets/shopping-platforms.png)
 
 ---
 
-## 🛒 Amazon Search Results
-
-Users are redirected to Amazon with relevant fashion search results.
+## 🛍 Amazon Results
 
 ![Amazon Results](assets/amazon-results.png)
 
 ---
 
-## 👗 Myntra Search Results
-
-Users can explore trending fashion products directly on Myntra.
+## 👗 Myntra Results
 
 ![Myntra Results](assets/myntra-results.png)
 
 ---
 
-## 🛍 Flipkart Search Results
-
-Users can browse affordable fashion collections on Flipkart.
+## 🛒 Flipkart Results
 
 ![Flipkart Results](assets/flipkart-results.png)
 
