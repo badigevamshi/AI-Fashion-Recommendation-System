@@ -1,0 +1,8 @@
+flask
+flask-cors
+python-dotenv
+pillow
+opencv-python-headless
+numpy
+groq
+gunicorn

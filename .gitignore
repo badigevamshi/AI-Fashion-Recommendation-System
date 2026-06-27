@@ -1,0 +1,54 @@
+# Python cache
+
+_pycache_/
+*.py[cod]
+*$py.class
+
+# Compiled extensions
+
+*.so
+
+# Virtual environments
+
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+# Environment variables (API keys)
+
+.env
+
+# Logs
+
+*.log
+
+# Uploaded images
+
+static/uploads/*
+!static/uploads/.gitkeep
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# Editor files
+
+.vscode/
+.idea/
+
+# Build files
+
+build/
+dist/
+*.egg-info/
+
+# Testing cache
+
+.pytest_cache/
+
+# Jupyter notebooks
+
+.ipynb_checkpoints
