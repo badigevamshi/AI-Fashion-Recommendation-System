@@ -2,67 +2,93 @@
 
 <p align="center">
 
-![Python](https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python)
-![Flask](https://img.shields.io/badge/Flask-Web%20Framework-black?style=for-the-badge&logo=flask)
-![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-green?style=for-the-badge&logo=opencv)
+![Python](https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge\&logo=python)
+![Flask](https://img.shields.io/badge/Flask-Web%20Framework-black?style=for-the-badge\&logo=flask)
+![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-green?style=for-the-badge\&logo=opencv)
 ![Groq](https://img.shields.io/badge/Groq-Llama%203.3-orange?style=for-the-badge)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge\&logo=html5\&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge\&logo=css3)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=black)
 
 </p>
 
 <p align="center">
-An AI-powered web application that analyzes user photos using Computer Vision and Artificial Intelligence to provide personalized fashion recommendations with direct shopping integration.
+An AI-powered Fashion Recommendation Web Application that analyzes user images using Computer Vision and Artificial Intelligence to generate personalized outfit suggestions with direct shopping integration.
 </p>
+
+---
+
+# 📑 Table of Contents
+
+* Overview
+* Features
+* Shopping Platform Integration
+* Project Screenshots
+* System Workflow
+* Tech Stack
+* Project Structure
+* Installation
+* Future Enhancements
+* Key Highlights
+* Contributing
+* Author
+* License
 
 ---
 
 # 📖 Overview
 
-**AI Fashion Recommendation System** is an intelligent fashion assistant developed using **Flask**, **OpenCV**, and **Groq Llama 3.3**.
+The **AI Fashion Recommendation System** is an intelligent web application developed using **Flask**, **OpenCV**, and **Groq Llama 3.3**.
 
-The application analyzes an uploaded image, detects the user's skin tone, and generates personalized fashion recommendations based on:
+The application analyzes an uploaded image, verifies the presence of a human face, detects the user's skin tone, and generates personalized fashion recommendations based on:
 
-- 🎨 Skin Tone
-- 👤 Gender
-- 👕 Body Type
-- 🌦 Preferred Season
+* 🎨 Skin Tone
+* 👤 Gender
+* 👕 Body Type
+* 🌦 Preferred Season
 
-The AI suggests clothing, footwear, accessories, and hairstyles, then allows users to shop similar products directly from **Amazon**, **Myntra**, or **Flipkart**.
+Using **Groq Llama 3.3**, the application recommends:
+
+* Shirts
+* Bottom Wear
+* Footwear
+* Accessories
+* Hairstyles
+
+Users can then instantly browse similar products on popular shopping platforms such as **Amazon**, **Myntra**, and **Flipkart**.
 
 ---
 
 # ✨ Features
 
-- 📸 Upload a photo
-- 🤖 AI-powered fashion recommendations
-- 👤 Human face detection using OpenCV
-- 🎨 Automatic skin tone detection
-- 👕 Shirt recommendations
-- 👖 Bottom wear suggestions
-- 👟 Footwear recommendations
-- ⌚ Accessories suggestions
-- 💇 Hairstyle recommendations
-- 🌦 Season-based outfit recommendations
-- 🛍 Shopping platform integration
-- ⚡ Beautiful animated UI
-- 📱 Responsive design
-- 🎯 Easy-to-use interface
+* 📸 Upload an image
+* 🤖 AI-powered fashion recommendations
+* 👤 Human face verification using OpenCV
+* 🎨 Automatic skin tone detection
+* 👕 Personalized shirt recommendations
+* 👖 Bottom wear suggestions
+* 👟 Footwear recommendations
+* ⌚ Accessories suggestions
+* 💇 Hairstyle recommendations
+* 🌦 Season-based outfit recommendations
+* 🛍 Shopping platform integration
+* ⚡ Interactive animations
+* 🎯 Modern Glassmorphism UI
+* 📱 Fully responsive design
 
 ---
 
 # 🛍 Shopping Platform Integration
 
-After generating personalized fashion recommendations, users can instantly explore similar outfits on their preferred shopping platform.
+After generating personalized outfit recommendations, users can instantly browse similar products from their preferred shopping platform.
 
-| Platform | Description |
-|----------|-------------|
-| 🛒 Amazon | Browse a wide range of fashion products |
-| 👗 Myntra | Explore branded and trending fashion |
-| 🛍 Flipkart | Discover affordable clothing collections |
+| Platform    | Description                             |
+| ----------- | --------------------------------------- |
+| 🛒 Amazon   | Search a wide range of fashion products |
+| 👗 Myntra   | Explore branded and trending fashion    |
+| 🛍 Flipkart | Browse affordable clothing collections  |
 
-The application automatically redirects users to the selected platform with relevant fashion searches.
+The application automatically redirects users to the selected shopping platform using relevant fashion search queries.
 
 ---
 
@@ -70,45 +96,43 @@ The application automatically redirects users to the selected platform with rele
 
 ## 🏠 Home Page
 
-![Home](assets/home.png)
+![Home Page](assets/home-page.png)
 
 ---
 
-## 📤 Upload Image
+## 📤 Upload Page
 
-![Upload](assets/upload.png)
+![Upload Page](assets/upload-page.png)
 
 ---
 
-## 🤖 AI Fashion Analysis
+## 🤖 AI Style Analysis
 
-![Analysis](assets/analysis.png)
+![Style Analysis](assets/style-analysis.png)
 
 ---
 
 ## 🛒 Shopping Platform Selection
 
-Users can choose their preferred shopping platform.
-
-![Shopping](assets/shopping.png)
+![Shopping Platforms](assets/shopping-platforms.png)
 
 ---
 
-## 🛒 Amazon Search Results
+## 🛍 Amazon Results
 
-![Amazon](assets/amazon-results.png)
-
----
-
-## 👗 Myntra Search Results
-
-![Myntra](assets/myntra-results.png)
+![Amazon Results](assets/amazon-results.png)
 
 ---
 
-## 🛍 Flipkart Search Results
+## 👗 Myntra Results
 
-![Flipkart](assets/flipkart-results.png)
+![Myntra Results](assets/myntra-results.png)
+
+---
+
+## 🛒 Flipkart Results
+
+![Flipkart Results](assets/flipkart-results.png)
 
 ---
 
@@ -146,26 +170,26 @@ Redirect to Amazon / Myntra / Flipkart
 
 ## Frontend
 
-- HTML5
-- CSS3
-- JavaScript
+* HTML5
+* CSS3
+* JavaScript
 
 ## Backend
 
-- Python
-- Flask
-- Flask-CORS
+* Python
+* Flask
+* Flask-CORS
 
 ## Artificial Intelligence
 
-- Groq API
-- Llama 3.3 70B
-- OpenCV
-- NumPy
+* Groq API
+* Llama 3.3 70B
+* OpenCV
+* NumPy
 
 ## Other Libraries
 
-- python-dotenv
+* python-dotenv
 
 ---
 
@@ -182,10 +206,10 @@ AI-Fashion-Recommendation-System
 ├── .gitignore
 │
 ├── assets
-│   ├── home.png
-│   ├── upload.png
-│   ├── analysis.png
-│   ├── shopping.png
+│   ├── home-page.png
+│   ├── upload-page.png
+│   ├── style-analysis.png
+│   ├── shopping-platforms.png
 │   ├── amazon-results.png
 │   ├── myntra-results.png
 │   └── flipkart-results.png
@@ -253,28 +277,28 @@ http://127.0.0.1:5000
 
 # 🚀 Future Enhancements
 
-- 👔 AI Face Shape Detection
-- 🧍 AI Body Shape Detection
-- 👕 Virtual Try-On
-- 🎨 AI Outfit Generation
-- 👗 Smart Wardrobe Management
-- ❤️ Save Favorite Outfits
-- 📈 Fashion Trend Prediction
-- 📱 Mobile Application
+* 👔 AI Face Shape Detection
+* 🧍 AI Body Shape Detection
+* 👕 Virtual Try-On
+* 🎨 AI Outfit Generation
+* 👗 Smart Wardrobe Management
+* ❤️ Save Favorite Outfits
+* 📈 Fashion Trend Prediction
+* 📱 Mobile Application
 
 ---
 
 # 🎯 Key Highlights
 
-- ✅ Human Face Verification
-- ✅ Computer Vision Powered
-- ✅ AI-Based Fashion Recommendations
-- ✅ Personalized Outfit Suggestions
-- ✅ Skin Tone Analysis
-- ✅ Shopping Platform Integration
-- ✅ Modern Glassmorphism UI
-- ✅ Responsive Design
-- ✅ Interactive User Experience
+* ✅ Human Face Verification
+* ✅ Computer Vision Powered
+* ✅ AI-Based Fashion Recommendations
+* ✅ Personalized Outfit Suggestions
+* ✅ Skin Tone Analysis
+* ✅ Shopping Platform Integration
+* ✅ Modern Glassmorphism User Interface
+* ✅ Responsive Design
+* ✅ Interactive User Experience
 
 ---
 
@@ -283,9 +307,9 @@ http://127.0.0.1:5000
 Contributions are welcome!
 
 1. Fork the repository.
-2. Create a feature branch.
+2. Create a new feature branch.
 3. Commit your changes.
-4. Push your branch.
+4. Push the branch.
 5. Open a Pull Request.
 
 ---
@@ -296,9 +320,14 @@ Contributions are welcome!
 
 **B.Tech – Computer Science (Data Science)**
 
-🔗 **GitHub:** https://github.com/badigevamshi
+* GitHub: https://github.com/badigevamshi
+* LinkedIn: https://www.linkedin.com/in/vamshi-badige
 
-🔗 **LinkedIn:** https://www.linkedin.com/in/vamshi-badige
+---
+
+# 📄 License
+
+This project is intended for educational and portfolio purposes.
 
 ---
 
