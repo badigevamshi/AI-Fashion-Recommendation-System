@@ -95,19 +95,19 @@ The application automatically redirects users to the selected shopping platform 
 
 ## 📤 Upload Page
 
-![Upload Page](assets/upload-page.png)
+![Upload Page](assets/upload.png)
 
 ---
 
 ## 🤖 AI Fashion Analysis
 
-![Style Analysis](assets/style-analysis.png)
+![Style Analysis](assets/analysis.png)
 
 ---
 
 ## 🛒 Shopping Platform Selection
 
-![Shopping Platforms](assets/shopping-platforms.png)
+![Shopping Platforms](assets/shopping.png)
 
 ---
 
